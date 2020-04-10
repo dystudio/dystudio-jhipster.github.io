@@ -1,8 +1,8 @@
 ---
 applications:
   - name: jhipster
-    path: /
+    path: _site
     buildpacks:
-      - ruby_buildpack
+      - staticfile_buildpack
     routes:
       - route: jhipster-dev.apps.dhccloud.com.cn
